@@ -82,6 +82,20 @@ function my_the_post_category($anchor = true, $id = 0)
 }
 
 /**
+ * archive-case.phpを表示させる
+ */
+// 投稿のアーカイブページを作成する
+function post_has_archive($args, $post_type)
+{
+    if ('post' == $post_type) {
+        $args['rewrite'] = true; // リライトを有効にする
+        $args['has_archive'] = 'case'; // 任意のスラッグ名
+    }
+    return $args;
+}
+add_filter('register_post_type_args', 'post_has_archive', 10, 2);
+
+/**
  * 新固定ページ命名規則
  * 子ページ（download-thanks,contact-thanks）を
  * テンプレートファイルとして認識させる
