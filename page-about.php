@@ -107,9 +107,9 @@
               様々な文化に触れ、コミュニケーションスキルを磨き、同時にその必要性を実感する。<br>
               自身も講師を務め、実体験から得られた知見を皆様に還元し、グローバルなビジネス展開をサポートいたします。</p>
             <div class="directors-sns">
-              <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-              <a href="https://www.instagram.com/?hl=ja" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://twitter.com/" target="_blank" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.facebook.com/" target="_blank" aria-label="facebook"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/?hl=ja" target="_blank" aria-label="instagram"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
         </li>
@@ -126,9 +126,9 @@
               皆様に「より気持ちの伝わる英会話」を習得していただくサポートをいたします。
             </p>
             <div class="directors-sns">
-              <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-              <a href="https://www.instagram.com/?hl=ja" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.facebook.com/" target="_blank" aria-label="facebook"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/?hl=ja" target="_blank" aria-label="instagram"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
         </li>
@@ -144,9 +144,9 @@
               数多くの契約交渉の経験を活かし、国際ビジネスにおけるコミュニケーションのマナーから応用までお伝えいたします。
             </p>
             <div class="directors-sns">
-              <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-              <a href="https://www.instagram.com/?hl=ja" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/" target="_blank" aria-label="twitter"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.facebook.com/" target="_blank" aria-label="facebook"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/?hl=ja" target="_blank" aria-label="instagram"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
         </li>

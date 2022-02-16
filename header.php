@@ -19,18 +19,18 @@
       <h1 class="header-logo">
         <a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/logo/top/logo01.png" alt="logo01"></a>
       </h1>
-      <ul class="header-nav">
-        <div class="header-nav-item">
-          <li><a href="<?php echo esc_url(home_url()); ?>">トップ</a></li>
-          <li><a href="<?php echo esc_url(home_url('/about')); ?>">当社について</a></li>
-          <li><a href="<?php echo esc_url(home_url('/service')); ?>">サービス</a></li>
-          <li><a href="<?php echo esc_url(home_url('/case')); ?>">導入事例</a></li>
-          <li><a href="<?php echo esc_url(home_url('/news')); ?>">お知らせ</a></li>
-        </div>
-        <div class="header-nav-button">
-          <li class="ly-btn-white"><a href="<?php echo esc_url(home_url('/download')); ?>">資料ダウンロード</a></li>
-          <li class="ly-btn-white is-blue"><a href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせ</a></li>
-        </div>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-list-item"><a href="<?php echo esc_url(home_url()); ?>">トップ</a></li>
+          <li class="header-nav-list-item"><a href="<?php echo esc_url(home_url('/about')); ?>">当社について</a></li>
+          <li class="header-nav-list-item"><a href="<?php echo esc_url(home_url('/service')); ?>">サービス</a></li>
+          <li class="header-nav-list-item"><a href="<?php echo esc_url(home_url('/case')); ?>">導入事例</a></li>
+          <li class="header-nav-list-item"><a href="<?php echo esc_url(home_url('/news')); ?>">お知らせ</a></li>
+        </ul>
+      </nav>
+      <ul class="header-button-list">
+        <li class="ly-button-white"><a href="<?php echo esc_url(home_url('/download')); ?>">資料ダウンロード</a></li>
+        <li class="ly-button-white is-blue"><a href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせ</a></li>
       </ul>
     </div>
   </header>

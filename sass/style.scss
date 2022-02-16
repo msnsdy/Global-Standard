@@ -207,7 +207,7 @@ span.is-pc-block {
 # ボタン共通スタイル
 ==================================== */
 /* 背景白ボタン */
-.ly-btn-white {
+.ly-button-white {
   text-align: center;
   border: solid 1px $main-color;
   background: #fff;
@@ -239,7 +239,7 @@ span.is-pc-block {
 }
 
 /* 背景白+矢印ボタン（service,case study） */
-.ly-btn-white-arrow {
+.ly-button-white-arrow {
   text-align: center;
 
   a {
@@ -593,7 +593,7 @@ select {
     width: 100%;
   }
 
-  @media screen and (max-width: #{$inner-layout - 1px}) {
+  @media (max-width: 1280px) {
     height: 60px;
     position: relative;
     z-index: $header;
@@ -602,7 +602,6 @@ select {
   &-inner {
     height: inherit;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 0 16px;
 
@@ -612,6 +611,10 @@ select {
   }
 
   &-logo {
+    a {
+      display: inline-block;
+    }
+
     img {
       width: 282px;
 
@@ -619,29 +622,30 @@ select {
         width: 198px;
       }
 
-      @include mq("tab") {
+      @media (max-width: 1280px) {
         width: 200px;
       }
     }
   }
 
   &-nav {
-    display: flex;
-    align-items: center;
+    margin-left: auto;
 
-    @media screen and (max-width: #{$inner-layout - 1px}) {
-      display: none;
-    }
-
-    &-item {
+    &-list {
       display: flex;
+      align-items: center;
+  
+      @media (max-width: 1280px) {
+        display: none;
+      }
 
-      li {
+      &-item {
+        // display: flex;
         position: relative;
-
+  
         &:not(:first-child) {
           margin-left: 45px;
-
+  
           &::before {
             position: absolute;
             content: "／";
@@ -652,14 +656,14 @@ select {
             left: -30px;
           }
         }
-
+  
         &:nth-child(5) {
           margin-right: 32px;
         }
-
+  
         a {
           transition: all 0.3s ease 0s;
-
+  
           &:hover {
             opacity: 0.6;
             transition: all 0.3s ease 0s;
@@ -668,18 +672,23 @@ select {
       }
     }
 
-    &-button {
-      display: flex;
 
-      li {
-        &:nth-child(1) {
-          margin-right: 10px;
-        }
+  }
+  &-button-list {
+    display: flex;
 
-        a {
-          padding: 24px 0;
-          width: 176px;
-        }
+    @media (max-width: 1280px) {
+      display: none;
+    }
+
+    li {
+      &:nth-child(1) {
+        margin-right: 10px;
+      }
+
+      a {
+        padding: 24px 0;
+        width: 176px;
       }
     }
   }
@@ -699,7 +708,7 @@ select {
     display: none;
     transition: all 0.5s ease 0s;
 
-    @media screen and (max-width: #{$inner-layout - 1px}) {
+    @media (max-width: 1280px) {
       display: block;
     }
 
@@ -1068,6 +1077,7 @@ select {
 
   a {
     text-decoration: none;
+    display: inline-block;
   }
 }
 
